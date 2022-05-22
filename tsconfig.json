@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "es2020",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "checkJs": true,
+      "skipLibCheck": true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": false,
+      "jsx": "react-jsx",
+      "keyofStringsOnly": true,
+      "alwaysStrict": true,
+      "baseUrl": "./",
+      "rootDir": "./",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "include": ["src", "react-app-env.d.ts"],
+    "exclude": ["./node_modules"]
+  }
+  
